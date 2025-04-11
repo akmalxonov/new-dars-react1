@@ -1,0 +1,141 @@
+.hero{
+    background-color: #F8FAFC;
+    padding: 100px 0 121px 0;
+    h1{
+        font-size:62px;
+        font-weight: 800;
+        color: #323A56;
+        line-height: 100%;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 28px;
+        span{
+            color: #1D72D2;
+        }
+    }
+    p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 29px;
+        color: #8A90A5;
+        width: 65%;
+        margin: auto;
+        margin-bottom: 58px;
+    }
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 60px;
+        .start{
+            &:hover{
+                background-color: #EFF2F7;
+                color: #1D72D2;
+                box-shadow: 0px 5px 20px 0px #1D72D2;
+            }
+            transition: 0.3s ease-in-out;
+            background-color: #1D72D2;
+            box-shadow: 0px 7px 12px 0px #2051893D;
+            border-radius: 8px;
+            border:1px solid #1D72D2;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 20px 40px;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .rigth{
+                font-size: 16px;
+                margin-top: 3px;
+            }
+        }
+        .gitHub{
+            &:hover{
+                background-color: #323A56;
+                color: white;
+                box-shadow: 0px 5px 20px 0px #323A56;
+                border: 1px solid #323A56;
+            }
+            transition: 0.3s ease-in-out;
+            background-color: #EFF2F7;
+            border: 1px solid #EFF2F7;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 20px 40px;
+            color: #323A56;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .github{
+                font-size: 22px;
+            }
+        }
+    }
+    .award{
+        &:hover{
+            box-shadow: 0px 2px 15px 0px #70C63B;
+        }
+        transition: 0.3s ease-in-out;
+        background-color: #F4FFF4;
+        box-shadow: 0px 1px 4px 0px #0000001F;
+        border-radius: 8px;
+        padding: 17px 30px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 22%;
+        margin: auto;
+        h5{
+            font-size: 10px;
+            font-weight: 600;
+            color: #323A56;
+            margin-bottom: 5px;
+        }
+        h3{
+            font-size: 16px;
+            font-weight: 600;
+            color: #70C63B;
+        }
+    }
+}
+
+@media (max-width: 571px){
+    .hero{
+        padding: 80px 0 54px 0;
+        h1{
+            font-size: 30px;
+            margin-bottom: 16px;
+            width: 100%;
+        }
+        p{
+            width: 100%;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 40px;
+        }
+        .btns{
+            flex-direction: column;
+            button{
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+        .award{
+            width: 75%;
+            padding: 14px 30px;
+            h3{
+                font-size: 10px;
+            }
+            h5{
+                font-size: 10px;
+                margin-bottom: 6px;
+            }
+        }
+    }
+}

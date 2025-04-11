@@ -1,0 +1,70 @@
+.support{
+    background-color: #1D72D2;
+    background-image: url(/src/assets/analysis-bg.svg),url(/src/assets/analysis-bg.svg);
+    background-size: 200%;
+    background-position: right ;
+    background-repeat: no-repeat;
+    padding: 60px 0 95px;
+    h2{
+        font-size: 54px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        color: white;
+        text-align: center;
+    }
+    p{
+        color: #FFFFFFB2;
+        font-size: 18px;
+        font-weight: 500;
+        width: 45%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .card{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 28px;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 16px 0px #2051890F;
+        h5{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        h6{
+            font-size: 16px;
+            font-weight: 400;
+            color: #8A90A5;
+        }
+        .btn{
+            &:hover{
+                background-color: white;
+                color: #1D72D2;
+            }
+            transition: 0.3s ease-in-out;
+            background-color: #1D72D2;
+            border: 1px solid #1D72D2;
+            border-radius: 8px;
+            box-shadow: 0px 7px 12px 0px #2051893D;
+            padding: 12px 28px;
+            color: white;
+            margin-left: auto;
+        }
+    }
+    h4{
+        font-size: 18px;
+        font-weight: 600;
+        margin: 30px 0;
+        color: white;
+        text-align: center;
+    }
+    .partners{
+        display: block;
+        margin: auto;
+    }
+}
